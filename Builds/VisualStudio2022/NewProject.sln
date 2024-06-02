@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewProject_StandalonePlugin", "NewProject_StandalonePlugin.vcxproj", "{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C6329AA3-2324-25BA-FA96-03E784D9626A} = {C6329AA3-2324-25BA-FA96-03E784D9626A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewProject_VST3", "NewProject_VST3.vcxproj", "{25AEA756-1AC7-2752-AE36-5C63AF3A7514}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C6329AA3-2324-25BA-FA96-03E784D9626A} = {C6329AA3-2324-25BA-FA96-03E784D9626A}
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8} = {4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewProject_SharedCode", "NewProject_SharedCode.vcxproj", "{C6329AA3-2324-25BA-FA96-03E784D9626A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewProject_VST3ManifestHelper", "NewProject_VST3ManifestHelper.vcxproj", "{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ableton Live 12|ARM = Ableton Live 12|ARM
+		Ableton Live 12|x64 = Ableton Live 12|x64
+		AudioPluginHost|ARM = AudioPluginHost|ARM
+		AudioPluginHost|x64 = AudioPluginHost|x64
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Ableton Live 12|ARM.ActiveCfg = Ableton Live 12|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Ableton Live 12|ARM.Build.0 = Ableton Live 12|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Ableton Live 12|x64.ActiveCfg = Ableton Live 12|x64
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Ableton Live 12|x64.Build.0 = Ableton Live 12|x64
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.AudioPluginHost|ARM.ActiveCfg = AudioPluginHost|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.AudioPluginHost|ARM.Build.0 = AudioPluginHost|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.AudioPluginHost|x64.ActiveCfg = AudioPluginHost|x64
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.AudioPluginHost|x64.Build.0 = AudioPluginHost|x64
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Debug|ARM.Build.0 = Debug|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Debug|x64.ActiveCfg = Debug|x64
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Debug|x64.Build.0 = Debug|x64
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Release|ARM.ActiveCfg = Release|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Release|ARM.Build.0 = Release|ARM
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Release|x64.ActiveCfg = Release|x64
+		{2972DF87-8633-8363-AE3E-45E4FD6AEBCC}.Release|x64.Build.0 = Release|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Ableton Live 12|ARM.ActiveCfg = Ableton Live 12|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Ableton Live 12|ARM.Build.0 = Ableton Live 12|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Ableton Live 12|x64.ActiveCfg = Ableton Live 12|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Ableton Live 12|x64.Build.0 = Ableton Live 12|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.AudioPluginHost|ARM.ActiveCfg = AudioPluginHost|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.AudioPluginHost|ARM.Build.0 = AudioPluginHost|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.AudioPluginHost|x64.ActiveCfg = AudioPluginHost|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.AudioPluginHost|x64.Build.0 = AudioPluginHost|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Debug|ARM.ActiveCfg = Debug|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Debug|ARM.Build.0 = Debug|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Debug|x64.ActiveCfg = Debug|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Debug|x64.Build.0 = Debug|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Release|ARM.ActiveCfg = Release|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Release|ARM.Build.0 = Release|ARM
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Release|x64.ActiveCfg = Release|x64
+		{25AEA756-1AC7-2752-AE36-5C63AF3A7514}.Release|x64.Build.0 = Release|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Ableton Live 12|ARM.ActiveCfg = Ableton Live 12|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Ableton Live 12|ARM.Build.0 = Ableton Live 12|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Ableton Live 12|x64.ActiveCfg = Ableton Live 12|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Ableton Live 12|x64.Build.0 = Ableton Live 12|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.AudioPluginHost|ARM.ActiveCfg = AudioPluginHost|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.AudioPluginHost|ARM.Build.0 = AudioPluginHost|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.AudioPluginHost|x64.ActiveCfg = AudioPluginHost|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.AudioPluginHost|x64.Build.0 = AudioPluginHost|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Debug|ARM.Build.0 = Debug|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Debug|x64.ActiveCfg = Debug|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Debug|x64.Build.0 = Debug|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Release|ARM.ActiveCfg = Release|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Release|ARM.Build.0 = Release|ARM
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Release|x64.ActiveCfg = Release|x64
+		{C6329AA3-2324-25BA-FA96-03E784D9626A}.Release|x64.Build.0 = Release|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Ableton Live 12|ARM.ActiveCfg = Ableton Live 12|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Ableton Live 12|ARM.Build.0 = Ableton Live 12|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Ableton Live 12|x64.ActiveCfg = Ableton Live 12|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Ableton Live 12|x64.Build.0 = Ableton Live 12|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.AudioPluginHost|ARM.ActiveCfg = AudioPluginHost|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.AudioPluginHost|ARM.Build.0 = AudioPluginHost|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.AudioPluginHost|x64.ActiveCfg = AudioPluginHost|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.AudioPluginHost|x64.Build.0 = AudioPluginHost|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Debug|ARM.Build.0 = Debug|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Debug|x64.ActiveCfg = Debug|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Debug|x64.Build.0 = Debug|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Release|ARM.ActiveCfg = Release|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Release|ARM.Build.0 = Release|ARM
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Release|x64.ActiveCfg = Release|x64
+		{4A0F8FCE-7916-B7E6-8679-71FF907EF0C8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE856019-5C69-41A8-8AB5-95E51FFA6001}
+	EndGlobalSection
+EndGlobal

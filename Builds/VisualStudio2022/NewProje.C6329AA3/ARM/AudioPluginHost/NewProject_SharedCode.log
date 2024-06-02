@@ -1,0 +1,5 @@
+﻿  PluginProcessor.cpp
+C:\Users\Ivy\Desktop\Desktop Files\Spring 2024\HW4\NewProject\Source\PluginProcessor.h(11,10): error C1083: Cannot open include file: 'JuceHeader.h': No such file or directory
+  PluginEditor.cpp
+C:\Users\Ivy\Desktop\Desktop Files\Spring 2024\HW4\NewProject\Source\PluginProcessor.h(11,10): error C1083: Cannot open include file: 'JuceHeader.h': No such file or directory
+  Generating Code...
